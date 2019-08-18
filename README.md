@@ -1,5 +1,5 @@
 # Chrome New Tab Countdown Timer
- 
+
 Powerful, customizable countdown timers to boost productivity every time you open a new tab.
 
 - minimal theme - light, dark, custom color of background and text, image background
@@ -8,7 +8,7 @@ Powerful, customizable countdown timers to boost productivity every time you ope
 - rearrangeable and "sort by date" closest to farthest or opposite
 - n days until abc, or n days since abc
 - option to auto-delete
-- largest and smallest unit 
+- largest and smallest unit
 
 languages: English, Spanish, Chinese
 English: 123.456 days; 10 days, 10 hours, 10 seconds until/since
