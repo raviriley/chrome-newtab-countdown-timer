@@ -8,6 +8,10 @@ Powerful, customizable countdown timers to boost productivity every time you ope
 - option to auto-delete
 - largest and smallest unit
 
-languages: English, Spanish, Chinese English: 123.456 days; 10 days, 10 hours, 10 seconds until/since Spanish: 123.456 días; 10 días, 10 horas, 10 minutos, 10 segundos hasta/desde Chinese: 123.456 天; 10天， 10小时，10分钟，10秒 到
+languages: English, Spanish, Chinese 
+
+English: 123.456 days; 10 days, 10 hours, 10 seconds until/since 
+Spanish: 123.456 días; 10 días, 10 horas, 10 minutos, 10 segundos hasta/desde 
+Chinese: 123.456 天; 10天， 10小时，10分钟，10秒 到
 
 add new tab example page here
