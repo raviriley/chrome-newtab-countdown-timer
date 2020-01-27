@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Kit for Chrome Extensions</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="A small CSS Kit for designing the options/settings page for Chrome Extensions. It resembles the exact look as the native settings page of Chrome Browser." />
+        <meta name="keywords" content="chrome-extensions,css-kit-for-chrome-extensions,css-kit,theme-for-chrome-extensions,chrome-developers" />
+        <meta name="author" content="Ram Swaroop" />
+        <link rel="shortcut icon" href="img/favicon.ico"> 
+        <!-- style for chrome extensions -->
+        <link rel="stylesheet" href="css/chrome_shared.css"/>
+        <style>
+            /* Style for this page */
+            body>.main-container{max-width:800px;margin:50px auto}
+            header{max-width:700px;margin:0 auto 50px auto;font-size:48px}
+            .fork-github{position:absolute;top:0;right:0;width:164px;height:164px}
+            .social-buttons{margin-top:-30px}
+            .fr{float:right}
+        </style>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-31158320-1']);
+            _gaq.push(['_setDomainName', 'compzets.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+        <a href="https://github.com/ramswaroop/css-kit-for-chrome-extensions" target="_blank"><img src="img/fork-github.png" alt="fork" class="fork-github"/></a>
+        <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=217347368312341";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="main-container">
+            <header>
+                CSS Kit for Chrome Extensions
+            </header>
+
+            <h1>Main Heading</h1>
+            <div class="social-buttons fr">
+                <iframe width="90" scrolling="0" height="20" frameborder="0" allowtransparency="true" src="//ghbtns.com/github-btn.html?user=ramswaroop&repo=css-kit-for-chrome-extensions&type=watch&count=true"></iframe><iframe width="90" scrolling="0" height="20" frameborder="0" allowtransparency="true" src="//ghbtns.com/github-btn.html?user=ramswaroop&repo=css-kit-for-chrome-extensions&type=fork&count=true"></iframe><fb:like send="false" layout="button_count" width="100" show_faces="false" ></fb:like>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-via="ramswarooppatra" data-related="compzets" data-hashtags="chrome-extensions">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+            <hr/>
+            
+            <!-- Widgets for Chrome Extension starts -->
+            <h3>Sub Heading</h3>
+
+            <h3>TextBox</h3>
+            <input type="text" placeholder="Type here..."/>
+
+            <h3>CheckBox</h3>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"/><span></span>This is a checkbox 
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" checked/><span></span>This is a checked checkbox 
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" disabled/><span></span>This is a disabled checkbox 
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" checked disabled/><span></span>This is a disabled but checked checkbox 
+                </label>
+            </div>
+
+            <h3>Radio Buttons</h3>
+            <div class="radio">
+                <div>
+                    <input id="startup-newtab" type="radio" name="startup" value="5" >
+                    <label for="startup-newtab">Radio Button</label>
+                </div>
+            </div>
+            <div class="radio">
+                <div>
+                    <input id="startup-newtab1" type="radio" name="startup" value="5" disabled>
+                    <label for="startup-newtab1">Disabled Radio Button</label>
+                </div>
+            </div>
+
+            <h3>Dropdowns</h3>
+            <select>
+                <option selected>This is a dropdown</option>
+                <option>Another option</option>
+                <option>Another option</option>
+            </select>
+            <select disabled>
+                <option selected>Disabled dropdown</option>
+                <option>Another option</option>
+                <option>Another option</option>
+            </select>
+            <select class="large">
+                <option selected>Large dropdown</option>
+                <option>Another option</option>
+                <option>Another option</option>
+            </select>
+            <h3>Buttons</h3>
+            <button style="font-size:11px">Small Button</button>
+            <button>Normal Button</button>        
+            <button disabled>Disabled Button</button>
+            <button style="font-size:18px">Large Button</button>
+            <button style="font-size:24px">X-Large</button>
+            <button style="font-size:30px">XX-Large</button>
+
+            <br/>
+            <br/>
+            <a href="//www.compzets.com">This is a link ....</a>
+            <!-- Widgets for Chrome Extension ends -->
+            
+            <p>
+                About: This is small CSS Kit for designing the options/settings page for Chrome Extensions. It resembles the exact look as the native settings page of Chrome Browser. For a live example, you can have a look at the options page of <a href="//plugins.compzets.com/simplefill">SimpleFill</a> plugin.
+            </p>
+            <p>
+                NOTE: This Kit is meant for Chrome Browsers only.
+            </p>
+            <p>
+                With &#9829; by Ram Swaroop
+            </p>
+            <br/>
+            <br/>
+            <!-- Some Ads -->
+            <script type="text/javascript">
+                if(document.body.offsetWidth < 800) {
+                    var ad_slot = "3949443223";
+                    var ad_width = 320;
+                    var ad_height = 50;
+                }
+                else {
+                    var ad_slot = "3210232421";
+                    var ad_width = 728;
+                    var ad_height = 90;
+                }
+            </script>
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-1702577941194110";
+            google_ad_slot = ad_slot;
+            google_ad_width = ad_width;
+            google_ad_height = ad_height;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </div>
+    </body>
+</html>
