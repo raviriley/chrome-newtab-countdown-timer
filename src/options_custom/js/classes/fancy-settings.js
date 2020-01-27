@@ -85,7 +85,8 @@
                 "text",
                 "button",
                 "slider",
-                "popupButton"
+                "popupButton",
+				"colorPicker"
             ];
             type = settings[0].params.type;
             maxWidth = 0;
